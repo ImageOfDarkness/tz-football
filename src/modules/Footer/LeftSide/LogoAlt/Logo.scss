@@ -1,0 +1,14 @@
+
+
+.Header__logo{
+  width: 187px;
+  height: 32px;
+  margin-right: 158px;
+}
+
+@media (max-width: 576px) {
+  .Header__logo{
+    width: 120px;
+    height: 20px;
+  }
+}
