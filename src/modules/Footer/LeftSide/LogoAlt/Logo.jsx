@@ -1,13 +1,12 @@
 import './Logo.scss'
-import logo from '../../../img/logo.svg'
-import logoS from '../../../img/LogoS.svg'
+import logo from '../../../../img/Logo-alt.svg'
 
-function Logo() {
+function LogoAlt() {
     return(
-        <div>
-            <img className="Header__logo" src={logo} alt="logo"/>
+        <div className="LogoAlt">
+            <img className="Footer__logo" src={logo} alt="logo"/>
         </div>
     )
 }
 
-export default Logo
+export default LogoAlt

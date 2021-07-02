@@ -1,14 +1,27 @@
 
 
-.Header__logo{
+.LogoAlt{
   width: 187px;
-  height: 32px;
-  margin-right: 158px;
+  margin-bottom: 30px;
+  .Footer__logo{
+    width: 187px;
+    height: 32px;
+    margin-right: 158px;
+  }
 }
 
+
+
 @media (max-width: 576px) {
-  .Header__logo{
+  .LogoAlt{
+    margin: 0 auto;
+    margin-bottom: 20px;
     width: 120px;
-    height: 20px;
+    .Footer__logo{
+      width: 120px;
+      height: 20px;
+
+    }
   }
+
 }

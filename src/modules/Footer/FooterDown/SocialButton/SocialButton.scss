@@ -1,0 +1,22 @@
+
+
+.SocialButton{
+  width: 240px;
+  .SocialButton__item{
+    padding: 0;
+    width: 34px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .SocialButton{
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .SocialButton{
+    margin-bottom: 32px;
+  }
+}

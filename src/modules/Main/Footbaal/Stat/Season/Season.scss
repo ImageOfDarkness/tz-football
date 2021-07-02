@@ -1,0 +1,73 @@
+
+
+.Season{
+  width: 100%;
+  max-width: 440px;
+
+  .Season__toggle{
+    border: 0.5px solid #5A60E7;
+    border-radius: 5px;
+    display: flex;
+    //justify-content: space-evenly;
+    //height: 40px;
+    //width: 440px;
+    padding: 5px;
+    margin-bottom: 20px;
+
+    .Season__toggle-button{
+      border-radius: 3px;
+      width: 210px;
+      height: 30px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 110%;
+      /* identical to box height, or 18px */
+
+      text-align: center;
+
+      /* Blue 50% */
+
+      color: #ACAFF3;
+    }
+
+    .Season__toggle-button:hover{
+      background: #5A60E7;
+      color: #FFFFFF;
+    }
+
+    .Season__toggle-button:first-of-type{
+      margin-right: 10px;
+    }
+  }
+
+  .Season__card-wrapper{
+    display: flex;
+    width: 440px;
+    justify-content: space-between;
+  }
+
+}
+
+@media (max-width: 880px) {
+  .Season{
+    .Season__card-wrapper{
+      max-width: 290px;
+    }
+    .Season__toggle{
+
+    }
+  }
+}
+
+@media (max-width: 1240px) {
+  .Season{
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Season{
+    max-width: 100%;
+  }
+}

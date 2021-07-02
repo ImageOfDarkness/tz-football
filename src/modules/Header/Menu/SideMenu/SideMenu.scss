@@ -1,0 +1,26 @@
+
+
+.SideMenu{
+  width: 295px;
+  height: 800px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  margin-right: 50px;
+  box-shadow: 0px 2px 8px #E9E9E9;
+}
+
+
+@media (max-width: 750px) {
+  .SideMenu{
+    width: 100%;
+    margin: 0px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .SideMenu{
+    height: 100%
+  }
+}
+

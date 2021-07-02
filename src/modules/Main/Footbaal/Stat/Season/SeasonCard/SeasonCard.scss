@@ -1,0 +1,53 @@
+
+
+.SeasonCard{
+  width: 95px;
+  height: 75px;
+  position: relative;
+  background: linear-gradient(238.37deg, rgba(90, 96, 231, 0.35) 6.34%, rgba(30, 30, 40, 0) 103.77%), #2C2C2C;
+  border-radius: 5px;
+
+  .SeasonCard__name{
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 110%;
+    color: #FAF9F9;
+    left: 10px;
+    top: 10px;
+  }
+
+  .SeasonCard__number{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 140%;
+    text-align: right;
+    color: #FF795B;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+  }
+}
+
+@media (max-width: 880px) {
+  .SeasonCard{
+    width: 67px;
+    height: 60px;
+    .SeasonCard__name{
+      font-weight: 600;
+      font-size: 12px;
+    }
+    .SeasonCard__number{
+      font-weight: 600;
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .SeasonCard{
+
+  }
+}

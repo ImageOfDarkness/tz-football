@@ -1,0 +1,21 @@
+
+
+.LeftSide{
+  margin-right: 40px;
+}
+
+
+
+@media (max-width: 768px) {
+  .LeftSide{
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .LeftSide{
+    margin: 0 auto;
+  }
+}

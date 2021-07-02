@@ -1,0 +1,18 @@
+
+
+.MenuList{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 65px 0px 20px;
+
+
+}
+
+
+@media (max-width: 576px) {
+  .MenuList{
+    flex-direction: row;
+    margin-bottom: 20px;
+    height: 40px;
+  }
+}

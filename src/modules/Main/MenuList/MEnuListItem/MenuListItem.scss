@@ -1,0 +1,101 @@
+.MenuListItem{
+  position: relative;
+  &:last-of-type{
+    margin-top: 50px;
+  }
+  .nested{
+    padding-left: 20px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 99;
+    border-radius: 10px;
+    &.open{
+      display: block;
+    }
+  }
+  .MenuList__button{
+    width: 210px;
+    height: 32px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    border-radius: 5px;
+    margin-right: 10px;
+    /* or 22px */
+    /* Black */
+    color: #222222;
+    text-align: left;
+    position: relative;
+    padding: 0px 40px;
+    margin-bottom: 5px;
+  }
+
+  .MenuList__button-nested{
+    padding: 0px 10px;
+  }
+
+  .MenuList__button:nth-of-type(4){
+    margin-bottom: 50px;
+  }
+
+  .MenuList__button:focus{
+    color: #5A60E7;
+    background: #EFEFFD;
+  }
+  .MenuList__button:hover{
+    color: #5A60E7;
+    background: #EFEFFD;
+  }
+
+  .MenuList__button-img{
+    position: absolute;
+    left: 10px;
+    top: 3px;
+  }
+
+  .MenuList__button-img-arrow{
+    transition: 0.2s ease-out;
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    transform: rotate(180deg);
+    &.open{
+      transform: rotate(0deg);
+    }
+  }
+}
+
+
+@media (max-width: 576px) {
+  .MenuListItem{
+    height: 40px;
+    .MenuList__button:nth-of-type(4){
+      margin-bottom: 0px;
+    }
+    .nested{
+      background-color: white;
+      padding-left: 0px;
+    }
+
+    .MenuList__button{
+      width: 160px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 140%;
+    }
+
+    .MenuList__button:hover{
+      color: #FFFFFF;
+      background: #5A60E7;
+    }
+
+    .MenuList__button:active{
+      color: #FFFFFF;
+      background: #5A60E7;
+    }
+  }
+
+}

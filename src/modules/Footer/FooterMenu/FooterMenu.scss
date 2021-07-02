@@ -1,0 +1,38 @@
+
+
+.FooterMenu{
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  width: 100%;
+  .FooterMenu__groop{
+    display: flex;
+    justify-content: space-between;
+    //max-width: 400px;
+    width: 100%;
+    margin-right: 40px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .FooterMenu{
+    display: none;
+  }
+}
+
+@media (max-width: 920px) {
+  .FooterMenu__groop{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .FooterMenu{
+    justify-content: space-around;
+    .FooterMenu__groop{
+      width: auto;
+    }
+  }
+
+}

@@ -1,0 +1,70 @@
+
+
+.Icons{
+  width: 275px;
+  margin-right: 50px;
+
+  .Icons__title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 110%;
+    color: #909090;
+    margin-bottom: 10px;
+    display: none;
+  }
+  .Icons__top{
+    border-bottom: 1px solid #D6D7F9;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+
+    .Icons__top__number-wrapper{
+      display: flex;
+      .Icons__top__number-item{
+        margin-right: 10px;
+        position: relative;
+
+        .Icons__top__number-item-point{
+          position: absolute;
+          top: -4px;
+          right: -4px;
+          background-color: white;
+          border-radius: 50px;
+          height: 15px;
+        }
+      }
+    }
+    .Icons__top__dark-wrapper{
+      display: flex;
+      .Icons__top__number-item{
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .Icons__down{
+    display: flex;
+
+    .Icons__top__number-item{
+      margin-right: 5px;
+    }
+  }
+}
+
+//@media (max-width: 1240px) {
+//  .Icons{
+//
+//    margin-bottom: 20px;
+//  }
+//}
+
+@media (max-width: 576px) {
+  .Icons{
+    width: 300px;
+    .Icons__title{
+      display: block;
+    }
+  }
+}

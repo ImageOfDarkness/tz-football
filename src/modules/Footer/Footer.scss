@@ -1,0 +1,34 @@
+
+.Footer{
+    .Footer--alt{
+      display: none;
+    }
+    .Footer__content {
+      flex: 0 0 auto;
+      display: flex;
+      justify-content: space-between;
+    }
+    padding: 50px 40px 20px 40px;
+    background: #222222;
+    color: white;
+}
+
+
+@media (max-width: 576px) {
+  .Footer{
+    padding: 20px 40px;
+    text-align: center;
+    .Footer--normal{
+      display: none;
+    }
+    .Footer--alt{
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .Footer__content{
+    flex-direction: column;
+  }
+}

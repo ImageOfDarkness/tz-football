@@ -1,0 +1,84 @@
+
+
+.HeaderButton{
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  width: 100%;
+}
+
+.dropdown{
+  border: none;
+  width: 70px;
+  height: 40px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  position: relative;
+  .dropdown__football{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+  }
+  .dropdown__arrow{
+    position: absolute;
+    top: 17px;
+    right: 8px;
+  }
+}
+
+.avatar{
+  width: 40px;
+  height: 40px;
+}
+
+.Burger{
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .HeaderButton{
+    width: auto;
+  }
+  .dropdown{
+    display: none;
+  }
+  .avatar{
+    display: none;
+  }
+  .bag{
+    margin-right: 20px;
+  }
+
+}
+
+@media (max-width: 880px) {
+  .HeaderButton{
+
+  }
+  .Burger{
+    display: block;
+  }
+  //.bag{
+  //  margin-right: 20px;
+  //}
+}
+
+
+
+@media (max-width: 576px) {
+  .HeaderButton{
+    max-width: 76px;
+    .dropdown{
+      display: none;
+    }
+
+    .avatar{
+      display: none;
+    }
+
+    .burger{
+      display: block;
+    }
+  }
+
+}

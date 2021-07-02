@@ -1,0 +1,42 @@
+
+
+.Burger{
+  .Burger__button{
+    width: 24px;
+    height: 24px;
+  }
+
+  .Burger__menu{
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #2C2C2C;
+    z-index: 100;
+
+    .Burger__menu-item{
+      font-family: "Proxima Nova Rg";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 32px;
+      line-height: 110%;
+      color: white;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    &.open{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .Burger__menu-exit{
+      position: absolute;
+      right: 40px;
+      top: 20px;
+    }
+  }
+
+}

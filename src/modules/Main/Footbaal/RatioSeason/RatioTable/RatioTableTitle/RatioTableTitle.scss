@@ -1,0 +1,46 @@
+
+
+.RatioTableTitle{
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 40px 5px 20px;
+
+
+  .RatioTableTitle-button{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 110%;
+    /* or 13px */
+
+
+    /* Black 50% */
+
+    color: #909090;
+  }
+
+  .RatioTableTitle-right{
+    max-width: 530px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .RatioTableTitle-button-text-alt{
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .RatioTableTitle{
+    .RatioTableTitle-button-text{
+      display: none;
+    }
+    .RatioTableTitle-button-text-alt{
+      display: block;
+    }
+    .RatioTableTitle-right{
+      max-width: 300px;
+    }
+  }
+
+}

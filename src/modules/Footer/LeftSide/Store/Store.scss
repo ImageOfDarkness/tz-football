@@ -1,0 +1,41 @@
+
+
+.Store{
+  margin-bottom: 50px;
+  width: 284px;
+  display: flex;
+  .Store__button{
+    margin: 0 5px;
+  }
+  .button__img-alt{
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .Store{
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 37px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .Store{
+    margin-bottom: 37px;
+    width: 100%;
+    display: block;
+    .Store__button{
+      //width: 105px;
+      //height: 30px;
+      .button__img{
+        display: none;
+      }
+      .button__img-alt{
+        display: block;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,47 @@
+
+
+
+.MenuTable{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 110%;
+  /* identical to box height, or 18px */
+
+  /* White */
+  padding: 0px;
+  margin: 0px;
+
+  color: #FFFFFF;
+  margin-right: 40px;
+  .MenuTable__title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 110%;
+    /* identical to box height, or 18px */
+
+    /* Blue 50% */
+
+    color: #ACAFF3;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  li{
+    margin-bottom: 10px;
+    text-decoration: none;
+    list-style: none;
+  }
+}
+
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 920px) {
+  .MenuTable{
+    margin-bottom: 20px;
+  }
+}
+
