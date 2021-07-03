@@ -19,15 +19,15 @@ function RatioTableTitle() {
                     <span className={"RatioTableTitle-button-text"}>Гол</span>
                     <span className={"RatioTableTitle-button-text-alt"}>г</span>
                 </button>
-                <button className="RatioTableTitle-button">
+                <button className="RatioTableTitle-button" onClick={()=>{gameFilter("gamePas")}}>
                     <span className={"RatioTableTitle-button-text"}>Пас</span>
                     <span className={"RatioTableTitle-button-text-alt"}>п</span>
                 </button>
-                <button className="RatioTableTitle-button">
+                <button className="RatioTableTitle-button" onClick={()=>{gameFilter("gameGoalPas")}}>
                     <span className={"RatioTableTitle-button-text"}>Гол + пас</span>
                     <span className={"RatioTableTitle-button-text-alt"}>г+п</span>
                 </button>
-                <button className="RatioTableTitle-button">
+                <button className="RatioTableTitle-button" onClick={()=>{gameFilter("gameRatio")}}>
                     <span className={"RatioTableTitle-button-text"}>Рейтинг</span>
                     <span className={"RatioTableTitle-button-text-alt"}>р</span>
                 </button>
